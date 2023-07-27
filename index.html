@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy&Sell Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <p>Buy<span><b class="middle">&</b></span>Sell</p>
+            </div>
+            <div class="nav-items">
+                <div class="nav-search">
+                    <input type="text" class="search-box" placeholder="Find Cars,Mobile Phones and more...">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-btnlogin">
+                <button class="btnlogin-popup">Login</button>
+            </div>        
+            <div class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+            <div class="nav-icons">
+                <button class="sell-button"><i class="fa-solid fa-plus"></i> SELL </button>             
+            </div>
+        </div>
+    </header>
+    <div class="header-bottom-bar">
+            <div class="panel-all">
+                All Categories
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="panel-ops">
+                <p>Cars</p>
+                <p>Mobiles Phones</p>
+                <p>Motocycles</p>
+                <p>Scooters</p>
+                <p>For Sale: Houses & Apartments</p>
+                <p>TV,Tables</p>
+            </div>
+    </div> 
+    <!-----popup-section ----->
+<div class="hero-section">
+    <div class="wrapper">
+        <span class="icon-close"><i class="fa-solid fa-xmark"></i></span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forget">
+                    <label><input type="checkbox">
+                    Remember me</label>
+                    <a href="#">Forget password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                    <input type="username" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forget">
+                    <label><input type="checkbox">
+                    I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+    <div class="shop-section">
+        <div class="box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('box1.jpg');"></div>
+                <h2><i class="fa-solid fa-indian-rupee-sign"></i> 5,25,000</h2>
+                <p>2019-35,000 km</p>
+                <p>Tata Tiago XZ Diesel,2019,Diesel</p>
+                <p class="additional-info">PUNE</p>
+            </div>
+
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('box2.jpg');"></div>
+                <h2><i class="fa-solid fa-indian-rupee-sign"></i> 9,55,000</h2>
+                <p>2020-48,000 km</p>
+                <p>Mahindra XUV300 W8 Option Diesel</p>
+                <p class="additional-info">HAZRA,KOLKATA</p>
+            </div>
+    
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <div class="box-img" style="background-image: url('box3.jpg');"></div>
+                    <h2><i class="fa-solid fa-indian-rupee-sign"></i> 17,500</h2>
+                    <p>Urgent sale</p>
+                    <p class="additional-info">LUCKNOW,UTTAR PRADESH</p>
+                </div>
+        
+                </div>
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-img" style="background-image: url('box4.jpg');"></div>
+                        <h2><i class="fa-solid fa-indian-rupee-sign"></i> 6,000</h2>
+                        <p>Nice cycle</p>
+                        <p class="additional-info">MAHARASTRA</p>
+                    </div>
+            
+                    </div>
+                    <div class="box">
+                        <div class="box-content">
+                            <div class="box-img" style="background-image: url('box5.jpg');"></div>
+                            <h2><i class="fa-solid fa-indian-rupee-sign"></i> 400</h2>
+                            <p>Women's Alloy Gold Plated Jewellery</p>
+                            <p class="additional-info">BIHAR,UP</p>
+                            </div>
+                
+                        </div>
+                        <div class="box">
+                            <div class="box-content">
+                                <div class="box-img" style="background-image: url('box6.jpg');"></div>
+                                <h2><i class="fa-solid fa-indian-rupee-sign"></i> 500</h2>
+                                <p>Stylish shoes for men</p>
+                                <p class="additional-info">ALAMBAGH,LUCKNOW</p>
+                            </div>
+                    
+                            </div>
+                            <div class="box">
+                                <div class="box-content">
+                                    <div class="box-img" style="background-image: url('box7.jpg');"></div>
+                                    <h2><i class="fa-solid fa-indian-rupee-sign"></i> 1000</h2>
+                                    <p>We have new collection of smart watches</p>
+                                    <p class="additional-info">MEERUT</p>
+                                </div>
+                        
+                                </div>
+                                <div class="box">
+                                    <div class="box-content">
+                                        <div class="box-img" style="background-image: url('box8.jpg');"></div>
+                                        <h2><i class="fa-solid fa-indian-rupee-sign"></i> 4,000</h2>
+                                        <p>SALE:-CAMERA DRONE</p>
+                                        <p class="additional-info">MAHARASTRA</p>
+                                    </div>
+                            
+                                </div>
+    </div>
+    <footer>
+        <div class="foot-panel1">
+            Back to Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Us</a>
+                <a>Investor Relations</a>
+                <a>Services</a>
+            </ul>
+            <ul>
+                <p>Connect with Us</p>
+                <a>Facebook</a>
+                <a>Twitter</a>
+                <a>Instagram</a>
+            </ul>
+            <ul>
+                <p>Popular Locations</p>
+                <a>Kolkata</a>
+                <a>Mumbai</a>
+                <a>Chennai</a>
+            </ul>
+            <ul>
+                <p>Trending Locations</p>
+                <a>Bhubaneshwar</a>
+                <a>Chandigarh</a>
+                <a>Nashik</a>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <h2>Buy<span><b class="middle">&</b></span>Sell</h2>
+        </div>
+
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Condition of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 2023, B&S.com, Inc. or its affiliates
+            </div>
+        </div>      
+    </footer>
+    
+   
+
+   <script src="script.js"></script>
+</body>
+</html>
